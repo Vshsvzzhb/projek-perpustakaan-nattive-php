@@ -67,7 +67,7 @@ $result = $conn->query($sql);
     <div class="container">
 
         <form class="search-form" method="GET" action="">
-            <h1 class="blink-title"> Perpustakaan Digital</h1>
+            <h1 class="blink-title"> catatan bacaan buku</h1>
             <input type="text" name="search" placeholder=" Cari materi..." value="<?php echo htmlspecialchars($search); ?>" />
             <button type="submit"><i class="fas fa-search"></i> Cari</button>
         </form>
